@@ -1,0 +1,18 @@
+.social-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #445626;
+    height: 75px;
+    padding: 0 32px;
+    color: white;
+}
+
+.social-icon {
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.social-icon:last-child {
+    margin-right: 0;
+}
