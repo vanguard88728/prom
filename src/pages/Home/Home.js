@@ -8,6 +8,8 @@ import './Home.css';
 import Logo from '../../assets/images/logo.png';
 import GreenMap from '../../assets/images/GreenMap.png';
 import MissionLeaf from '../../assets/images/MissionLeaf.png';
+import AboutBanner from '../../assets/images/AboutBanner.png';
+import BannerLeaf from '../../assets/images/BannerLeaf.png';
 
 const Home = () => {
   return (
@@ -64,7 +66,22 @@ const Home = () => {
       </section>
 
       <section id='about'>
-
+        <div className="about-banner">
+          <img src={AboutBanner} alt='' className="banner-image" />
+          <img src={BannerLeaf} alt='leaf' className="about-banner-leaf" />
+        </div>
+        <div className="mission-container">
+          <SectionTitle title='About Us' />
+          <p className='section-content'>
+            Growing franchising businesses, focusing on great tasting Zfood and exceptional customer service while
+            giving back to our community.
+            We aim to be financially successful through great people consistently delivering outstanding food, drinks
+            and service in an inviting atmosphere, making every guest loyal. We are always open to add more brands,
+            restaurants and franchises to our family. Please contact our business relations team for any inquiry..
+          </p>
+          <div className="inline-divider" />
+          <Divider align='right' />
+        </div>
       </section>
     </>
   );

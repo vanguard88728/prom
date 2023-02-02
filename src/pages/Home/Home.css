@@ -41,7 +41,7 @@
 }
 
 .mission-container {
-    padding: 80px 40px;
+    padding: 100px 40px;
 }
 
 .section-content {
@@ -101,4 +101,20 @@
     font-weight: 600;
     letter-spacing: 0.15rem;
     cursor: pointer;
+}
+
+.about-banner {
+    position: relative;
+    box-shadow: 0 6px 9px 0 rgba(94, 94, 94, 0.6);
+}
+
+.about-banner-leaf {
+    position: absolute;
+    bottom: -140px;
+    height: 140px;
+    right: 12%;
+}
+
+.inline-divider {
+    height: 60px;
 }
