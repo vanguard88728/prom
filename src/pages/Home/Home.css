@@ -40,7 +40,7 @@
     line-height: 130px;
 }
 
-.about-container {
+.mission-container {
     padding: 80px 40px;
 }
 
@@ -51,21 +51,21 @@
     letter-spacing: 0.09375rem;
 }
 
-.about-leaf {
+.mission-leaf {
     position: relative;
     right: -35px;
     float: right;
     width: 40%;
-    shape-outside: url('../../assets/images/AboutLeaf.png');
+    shape-outside: url('../../assets/images/MissionLeaf.png');
 }
 
-.about-growth {
+.mission-growth {
     display: flex;
     align-items: center;
     margin: 50px 0;
 }
 
-.about-growth span {
+.mission-growth span {
     font-size: 36px;
     font-weight: 500;
     text-transform: uppercase;
@@ -73,20 +73,20 @@
     vertical-align: center;
 }
 
-.about-growth .ampersand {
+.mission-growth .ampersand {
     font-family: Gabelisa, serif;
     font-size: 113px;
     line-height: 113px;
     vertical-align: center;
 }
 
-.about-growing {
+.mission-growing {
     font-family: 'Gabelisa', serif;
     font-size: 118px;
     letter-spacing: 0;
 }
 
-.about-extend {
+.mission-extend {
     font-size: 30px;
     letter-spacing: 0.15rem;
     margin-bottom: 80px;

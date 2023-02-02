@@ -7,7 +7,7 @@ import './Home.css';
 
 import Logo from '../../assets/images/logo.png';
 import GreenMap from '../../assets/images/GreenMap.png';
-import AboutLeaf from '../../assets/images/AboutLeaf.png';
+import MissionLeaf from '../../assets/images/MissionLeaf.png';
 
 const Home = () => {
   return (
@@ -31,10 +31,10 @@ const Home = () => {
         </ImageBanner>
       </section>
 
-      <section id='about'>
-        <div className="container about-container">
+      <section id='mission'>
+        <div className="container mission-container">
           <SectionTitle title='Our Mission' />
-          <img src={AboutLeaf} alt='' className="about-leaf" />
+          <img src={MissionLeaf} alt='' className="mission-leaf" />
           <p className='section-content'>
             Growing franchising businesses, focusing on great tasting Zfood and exceptional customer service while
             giving back to our community.
@@ -42,17 +42,17 @@ const Home = () => {
             and service in an inviting atmosphere, making every guest loyal. We are always open to add more brands,
             restaurants and franchises to our family. Please contact our business relations team for any inquiry..
           </p>
-          <div className="about-growth text-primary">
+          <div className="mission-growth text-primary">
             <span>Growth&nbsp;</span>
             <span className='ampersand text-secondary'>&</span>
             <span>&nbsp;Expansion</span>
           </div>
           <Divider />
-          <p className="about-growing text-secondary">
+          <p className="mission-growing text-secondary">
             <span>We are </span>
             <span className="text-primary">Growing!</span>
           </p>
-          <p className="about-extend text-primary">
+          <p className="mission-extend text-primary">
             We are expanding - Proven concept,<br />
             Excellent Support and Great People!
           </p>
@@ -61,6 +61,10 @@ const Home = () => {
             <span className='text-primary'>More</span>
           </div>
         </div>
+      </section>
+
+      <section id='about'>
+
       </section>
     </>
   );
