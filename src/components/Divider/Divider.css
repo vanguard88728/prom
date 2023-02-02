@@ -1,0 +1,11 @@
+.divider-container {
+    margin: 50px 0;
+}
+
+.divider-image {
+    width: 300px;
+}
+
+.divider-image.right {
+    margin-left: auto;
+}

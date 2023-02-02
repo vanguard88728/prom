@@ -3,7 +3,6 @@
 }
 
 .title {
-    padding-left: 40px;
     color: #445626;
     font-size: 50px;
     font-weight: 800;
@@ -16,5 +15,5 @@
     position: absolute;
     width: 50px;
     top: 10px;
-    left: -35px;
+    left: -75px;
 }
