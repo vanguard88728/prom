@@ -1,0 +1,23 @@
+.navigator-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 65px;
+    margin: 0 30px;
+    background-color: white;
+    box-shadow: 6px 6px 8px rgba(80, 80, 80, 0.5);
+}
+
+.nav-item {
+    color: #445626;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 6px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-item.active {
+    background-color: #7C9D45;
+    color: white;
+}
