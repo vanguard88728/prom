@@ -1,4 +1,8 @@
-.home-content {
+.section {
+    padding: 80px 0;
+}
+
+.home-container {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 80px;
@@ -34,4 +38,67 @@
     font-family: Gabelisa, serif;
     font-size: 130px;
     line-height: 130px;
+}
+
+.about-container {
+    padding: 80px 40px;
+}
+
+.section-content {
+    color: #445626;
+    font-size: 22px;
+    line-height: 2;
+    letter-spacing: 0.09375rem;
+}
+
+.about-leaf {
+    position: relative;
+    right: -35px;
+    float: right;
+    width: 40%;
+    shape-outside: url('../../assets/images/AboutLeaf.png');
+}
+
+.about-growth {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.about-growth span {
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.07rem;
+    vertical-align: center;
+}
+
+.about-growth .ampersand {
+    font-family: Gabelisa, serif;
+    font-size: 113px;
+    line-height: 113px;
+    vertical-align: center;
+}
+
+.about-growing {
+    font-family: 'Gabelisa', serif;
+    font-size: 118px;
+    letter-spacing: 0;
+}
+
+.about-extend {
+    font-size: 30px;
+    letter-spacing: 0.15rem;
+    margin-bottom: 80px;
+}
+
+.find-button {
+    display: inline-block;
+    background-color: white;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+    cursor: pointer;
 }
