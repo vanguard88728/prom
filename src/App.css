@@ -2,3 +2,8 @@
   margin: 0 auto;
   max-width: 1080px;
 }
+
+.container {
+  margin: 0 36px;
+  background-color: rgba(96, 96, 96, 0.07);
+}
