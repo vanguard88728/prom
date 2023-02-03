@@ -3,6 +3,7 @@ import Navigator from '../../components/Navigator/Navigator';
 import ImageBanner from '../../components/ImageBanner/ImageBanner';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
 import Divider from '../../components/Divider/Divider';
+import ImageCard from '../../components/ImageCard/ImageCard';
 import './Home.css';
 
 import Logo from '../../assets/images/logo.png';
@@ -10,6 +11,49 @@ import GreenMap from '../../assets/images/GreenMap.png';
 import MissionLeaf from '../../assets/images/MissionLeaf.png';
 import AboutBanner from '../../assets/images/AboutBanner.png';
 import BannerLeaf from '../../assets/images/BannerLeaf.png';
+import Card11 from '../../assets/images/Card1-1.png';
+import Card12 from '../../assets/images/Card1-2.png';
+import Card13 from '../../assets/images/Card1-3.png';
+import Card21 from '../../assets/images/Card2-1.png';
+import Card22 from '../../assets/images/Card2-2.png';
+import Card23 from '../../assets/images/Card2-3.png';
+
+const businessCardData = [
+  {
+    image: Card11,
+    title: 'Franchise Restaurant Chains',
+    subtitle: ''
+  },
+  {
+    image: Card12,
+    title: 'Food Supply',
+    subtitle: ''
+  },
+  {
+    image: Card13,
+    title: 'Digital Marketing',
+    subtitle: ''
+  }
+];
+
+const investorCardData = [
+  {
+    image: Card21,
+    title: 'Coming Soon!',
+    subtitle: 'Press Release'
+  },
+  {
+    image: Card22,
+    title: 'Coming Soon!',
+    subtitle: 'Press Release'
+  },
+  {
+    image: Card23,
+    title: 'Coming Soon!',
+    subtitle: 'Press Release'
+  },
+]
+
 
 const Home = () => {
   return (
@@ -34,7 +78,7 @@ const Home = () => {
       </section>
 
       <section id='mission'>
-        <div className="container mission-container">
+        <div className="container section-container">
           <SectionTitle title='Our Mission' />
           <img src={MissionLeaf} alt='' className="mission-leaf" />
           <p className='section-content'>
@@ -70,7 +114,7 @@ const Home = () => {
           <img src={AboutBanner} alt='' className="banner-image" />
           <img src={BannerLeaf} alt='leaf' className="about-banner-leaf" />
         </div>
-        <div className="mission-container">
+        <div className="container section-container">
           <SectionTitle title='About Us' />
           <p className='section-content'>
             Growing franchising businesses, focusing on great tasting Zfood and exceptional customer service while
@@ -81,6 +125,32 @@ const Home = () => {
           </p>
           <div className="inline-divider" />
           <Divider align='right' />
+        </div>
+      </section>
+
+      <section id='business'>
+        <div className="container section-container">
+          <SectionTitle title='Our Business' />
+          <ImageCard data={businessCardData} />
+          <Divider />
+        </div>
+      </section>
+
+      <section id='diversity'>
+        <div className="container section-container">
+          <SectionTitle title='Diversity' />
+        </div>
+      </section>
+
+      <section id='investors'>
+        <div className="container section-container">
+          <SectionTitle title='Investors' />
+        </div>
+      </section>
+
+      <section id='contact'>
+        <div className="container section-container">
+          <SectionTitle title='Contact Us' />
         </div>
       </section>
     </>
