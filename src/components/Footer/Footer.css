@@ -83,6 +83,11 @@
     .footer-logo {
         width: 200px;
     }
+
+    .footer-background {
+        left: 25px;
+        right: 25px;
+    }
 }
 
 @media screen and (max-width: 479px) {
@@ -97,5 +102,10 @@
 
     .footer-logo {
         width: 120px;
+    }
+
+    .footer-background {
+        left: 15px;
+        right: 15px;
     }
 }
