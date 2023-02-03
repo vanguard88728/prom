@@ -60,3 +60,25 @@
     font-size: 30px;
     text-transform: uppercase;
 }
+
+@media screen and (max-width: 1079px) {
+    .card-item-title {
+        font-size: 26px;
+    }
+
+    .card-item-subtitle {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+}
+
+@media screen and (max-width: 767px) {
+
+}
+
+@media screen and (max-width: 479px) {
+
+}
