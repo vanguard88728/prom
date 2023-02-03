@@ -1,5 +1,6 @@
 import { TextField } from '@mui/material';
 import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 import Navigator from '../../components/Navigator/Navigator';
 import ImageBanner from '../../components/ImageBanner/ImageBanner';
 import SectionTitle from '../../components/SectionTitle/SectionTitle';
@@ -217,6 +218,8 @@ const Home = () => {
           </div>
         </div>
       </section>
+
+      <Footer />
     </>
   );
 };
