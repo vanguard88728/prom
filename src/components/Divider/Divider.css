@@ -9,3 +9,23 @@
 .divider-image.right {
     margin-left: auto;
 }
+
+@media screen and (max-width: 991px) {
+    .divider-container {
+        margin: 35px 0;
+    }
+
+    .divider-image {
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .divider-container {
+        margin: 20px 0;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+}

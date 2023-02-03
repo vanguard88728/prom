@@ -36,7 +36,7 @@
     padding: 35px 0;
     text-align: center;
     font-size: 17px;
-    letter-spacing: 0.09rem;
+    letter-spacing: 0.08em;
 }
 
 .footer-social-container {
@@ -48,9 +48,43 @@
 
 .footer-social-icon {
     font-size: 24px;
-    margin-right: 28px;
+    margin-right: 1.2em;
 }
 
 .footer-social-icon:last-child {
     margin-right: 0;
+}
+
+@media screen and (max-width: 991px) {
+    .footer-text {
+        font-size: 14px;
+        padding: 28px 0;
+    }
+
+    .footer-social-icon {
+        font-size: 20px;
+    }
+
+    .footer-logo {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer-text {
+        font-size: 12px;
+        padding: 12px 0;
+    }
+
+    .footer-social-icon {
+        font-size: 14px;
+    }
+
+    .footer-logo {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
 }

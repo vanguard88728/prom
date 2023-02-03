@@ -37,7 +37,7 @@
 .home-banner-subtitle {
     font-family: Gabelisa, serif;
     font-size: 130px;
-    line-height: 130px;
+    line-height: 0.85;
 }
 
 .section-container {
@@ -76,7 +76,7 @@
 .mission-growth .ampersand {
     font-family: Gabelisa, serif;
     font-size: 113px;
-    line-height: 113px;
+    line-height: 1;
     vertical-align: center;
 }
 
@@ -88,7 +88,7 @@
 
 .mission-extend {
     font-size: 30px;
-    letter-spacing: 0.15rem;
+    letter-spacing: 0.08em;
     margin-bottom: 80px;
 }
 
@@ -149,7 +149,11 @@
 }
 
 .contact-map {
+    width: 400px;
+}
 
+.contact-map img {
+    max-width: 100%;
 }
 
 .form-input {
@@ -191,5 +195,207 @@
     font-weight: 800;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 0.18rem;
+    letter-spacing: 0.15em;
+}
+
+@media screen and (max-width: 991px) {
+    .app-logo {
+        width: 250px;
+    }
+
+    .home-container {
+        padding-bottom: 60px;
+    }
+
+    .home-caption {
+        margin-top: 60px;
+        font-size: 40px
+    }
+
+    .home-sub-caption {
+        font-size: 18px;
+    }
+
+    .home-banner-title {
+        font-size: 24px;
+    }
+
+    .home-banner-subtitle {
+        font-size: 100px;
+    }
+
+    .section-container {
+        padding-top: 60px;
+    }
+
+    .section-content {
+        font-size: 18px;
+    }
+
+    .mission-leaf {
+        width: 50%;
+    }
+
+    .mission-growth span {
+        font-size: 32px;
+    }
+
+    .mission-growth .ampersand {
+        font-size: 90px;
+    }
+
+    .mission-growing {
+        font-size: 95px;
+    }
+
+    .mission-extend {
+        font-size: 24px;
+        margin-bottom: 50px;
+    }
+
+    .find-button {
+        padding: 12px 20px;
+        font-size: 18px;
+    }
+
+    .about-banner-leaf {
+        height: 110px;
+        bottom: -110px;
+    }
+
+    .diversity-leaf {
+        width: 45%;
+    }
+
+    .contact-banner-leaf {
+        height: 250px;
+        bottom: -110px
+    }
+
+    .contact-map {
+        width: 50%;
+    }
+
+    .form-input input, .form-input textarea {
+        font-size: 14px;
+    }
+
+    .submit-button img {
+        width: 140px;
+    }
+
+    .submit-button-text {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .app-logo {
+        width: 220px;
+    }
+
+    .home-container {
+        padding-bottom: 50px;
+    }
+
+    .home-caption {
+        margin-top: 50px;
+        font-size: 26px;
+    }
+
+    .home-sub-caption {
+        font-size: 14px;
+    }
+
+    .home-banner-title {
+        font-size: 16px;
+    }
+
+    .home-banner-subtitle {
+        font-size: 70px;
+    }
+
+    .section-container {
+        padding: 40px 25px 30px;
+    }
+
+    .section-content {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .mission-leaf {
+        width: 40%;
+        right: -50px;
+    }
+
+    .mission-growth span {
+        font-size: 22px;
+    }
+
+    .mission-growth .ampersand {
+        font-size: 60px;
+    }
+
+    .mission-growing {
+        font-size: 60px;
+    }
+
+    .mission-extend {
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+    .find-button {
+        padding: 12px 20px;
+        font-size: 14px;
+    }
+
+    .about-banner-leaf {
+        height: 80px;
+        bottom: -80px;
+    }
+
+    .diversity-leaf {
+        width: 45%;
+        left: -50px;
+    }
+
+    .contact-banner-leaf {
+        height: 150px;
+        bottom: -60px
+    }
+
+    .contact-wrapper {
+        flex-direction: column-reverse;
+    }
+
+    .contact-map {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .contact-map img {
+        margin: auto;
+    }
+
+    .contact-form {
+        margin-right: 0;
+    }
+
+    .form-input input, .form-input textarea {
+        font-size: 12px;
+    }
+
+    .submit-button img {
+        width: 120px;
+    }
+
+    .submit-button-text {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
 }

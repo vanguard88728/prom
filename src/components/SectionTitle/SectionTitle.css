@@ -17,3 +17,31 @@
     top: 10px;
     left: -75px;
 }
+
+@media screen and (max-width: 991px) {
+    .title {
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+
+    .title-icon {
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+
+    .title-icon {
+        width: 40px;
+        left: -50px;
+        top: 5px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+}
