@@ -40,8 +40,8 @@
     line-height: 130px;
 }
 
-.mission-container {
-    padding: 100px 40px;
+.section-container {
+    padding: 80px 40px;
 }
 
 .section-content {
@@ -53,7 +53,7 @@
 
 .mission-leaf {
     position: relative;
-    right: -35px;
+    right: -75px;
     float: right;
     width: 40%;
     shape-outside: url('../../assets/images/MissionLeaf.png');
@@ -117,4 +117,12 @@
 
 .inline-divider {
     height: 60px;
+}
+
+.diversity-leaf {
+    position: relative;
+    left: -75px;
+    float: left;
+    width: 50%;
+    shape-outside: url('../../assets/images/DiversityLeaf.png');
 }
