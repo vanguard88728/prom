@@ -5,7 +5,7 @@ import BottomImage from '../../assets/images/CardBottomHolder.png';
 
 const CardItem = ({ direction = 'top', itemData}) => {
   return (
-    <div className="card-item-container">
+    <div className={`card-item-container ${direction}`}>
       <img src={itemData.image} alt='' className={`card-item-image ${direction}`} />
       <p className="card-item-title text-primary">{itemData.title}</p>
       <p className="card-item-subtitle text-secondary">{itemData.subtitle}</p>
@@ -18,7 +18,7 @@ const ImageCard = ({ direction = 'top', data }) => {
 
   return (
     <div className={`card-container ${direction}`}>
-      {data.map((item, index) => (<CardItem key={index} itemData={item} />))}
+      {data.map((item, index) => (<CardItem key={index} itemData={item} direction={direction} />))}
       <div className={`background-image ${direction}`}>
         <img src={isTop ? TopImage : BottomImage} alt='back' />
       </div>
