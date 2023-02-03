@@ -43,5 +43,14 @@
 }
 
 @media screen and (max-width: 479px) {
+    .title {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
 
+    .title-icon {
+        width: 35px;
+        left: -40px;
+        top: 5px;
+    }
 }

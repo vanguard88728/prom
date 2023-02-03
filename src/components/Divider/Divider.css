@@ -27,5 +27,7 @@
 }
 
 @media screen and (max-width: 479px) {
-
+    .divider-image {
+        width: 120px;
+    }
 }

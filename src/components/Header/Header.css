@@ -23,10 +23,12 @@
     }
 }
 
-@media screen and (max-width: 767px) {
-
-}
-
 @media screen and (max-width: 479px) {
+    .social-container {
+        height: 48px;
+    }
 
+    .social-icon {
+        font-size: 20px;
+    }
 }

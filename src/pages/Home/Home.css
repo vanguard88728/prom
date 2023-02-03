@@ -397,5 +397,87 @@
 }
 
 @media screen and (max-width: 479px) {
+    .app-logo {
+        width: 200px;
+    }
 
+    .home-container {
+        padding-bottom: 40px;
+    }
+
+    .home-caption {
+        font-size: 18px;
+    }
+
+    .home-sub-caption {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+
+    .home-banner-title {
+        font-size: 10px;
+    }
+
+    .home-banner-subtitle {
+        font-size: 45px;
+    }
+
+    .section-container {
+        padding: 30px 15px 25px;
+    }
+
+    .section-content {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .mission-leaf {
+        width: 40%;
+        right: -40px;
+    }
+
+    .mission-growth span {
+        font-size: 18px;
+    }
+
+    .mission-growth .ampersand {
+        font-size: 45px;
+    }
+
+    .mission-growing {
+        font-size: 45px;
+    }
+
+    .mission-extend {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+
+    .find-button {
+        padding: 10px 16px;
+        font-size: 12px;
+    }
+
+    .about-banner-leaf {
+        height: 60px;
+        bottom: -60px;
+    }
+
+    .diversity-leaf {
+        width: 45%;
+        left: -40px;
+    }
+
+    .contact-banner-leaf {
+        height: 100px;
+        bottom: -50px
+    }
+
+    .submit-button img {
+        width: 100px;
+    }
+
+    .submit-button-text {
+        font-size: 12px;
+    }
 }

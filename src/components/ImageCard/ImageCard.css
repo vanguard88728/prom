@@ -108,6 +108,10 @@
         padding-bottom: 30px;
     }
 
+    .card-item-image {
+        padding: 0 10px;
+    }
+
     .card-item-image.top {
         margin-bottom: 30px;
     }
@@ -133,5 +137,33 @@
 }
 
 @media screen and (max-width: 479px) {
+    .card-container.top {
+        padding-top: 20px;
+    }
 
+    .card-container.bottom {
+        padding-bottom: 20px;
+    }
+
+    .card-item-image.top {
+        margin-bottom: 20px;
+    }
+
+    .card-item-image.bottom {
+        margin-top: 20px
+    }
+
+    .card-item-title {
+        font-size: 9px;
+        margin-bottom: 15px;
+    }
+
+    .card-item-subtitle {
+        font-size: 9px;
+    }
+
+    .background-image {
+        left: -40px;
+        right: -40px;
+    }
 }
