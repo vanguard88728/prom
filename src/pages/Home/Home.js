@@ -1,4 +1,4 @@
-import { TextField } from '@mui/material';
+import { TextField, useMediaQuery } from '@mui/material';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Navigator from '../../components/Navigator/Navigator';
@@ -63,13 +63,15 @@ const investorCardData = [
 
 
 const Home = () => {
+  const isMobile = useMediaQuery('(max-width: 991px)');
+
   return (
     <>
       <Header />
       <section id='home'>
         <div className="container home-container">
           <img src={Logo} alt='logo' className='app-logo' />
-          <Navigator />
+          {!isMobile && <Navigator />}
           <p className="home-caption">
             <span className="text-primary">Bringing Joy of </span>
             <span className="text-secondary">Food</span>
