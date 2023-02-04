@@ -9,6 +9,8 @@ import { faTwitter, faFacebookF, faInstagram, faWhatsapp, faTelegramPlane } from
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import './Header.css';
 
+import Brand from '../../assets/images/brand.png';
+
 
 const NavItem = ({ to, title, handleClick }) => {
   const location = useLocation();
@@ -55,9 +57,10 @@ const Header = () => {
         sx={{ backgroundColor: 'rgba(96, 96, 96, 0.07)' }}
       >
         <div className="drawer-container">
-          <p className="drawer-title">
-            Prom Resources
-          </p>
+          <div className="drawer-title">
+            <img src={Brand} width={35} alt='logo' />
+            <p>Prom Resources</p>
+          </div>
 
           <NavItem to='#home' title='Home' handleClick={handleDrawerClose} />
           <NavItem to='#about' title='About Us' handleClick={handleDrawerClose} />

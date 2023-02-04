@@ -34,11 +34,18 @@
 }
 
 .drawer-title {
+    display: flex;
+    align-items: center;
     color: #445626;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 40px;
+}
+
+.drawer-title img {
+    display: inline-block;
+    margin-right: 15px;
 }
 
 .drawer-nav-item {
